@@ -94,9 +94,9 @@ body {
     font-weight: bold;
 }
 
-a {
-    width: 100px;
+.boton a {
     height: 30px;
+    width: 100px;
     text-decoration: none;
     font-weight: bold;
     color: grey;
@@ -105,10 +105,32 @@ a {
     justify-content: center;
 }
 
-a:hover {
+.boton a:hover {
     text-decoration: none;
     font-weight: bold;
     color: rgb(77, 77, 77)
+}
+
+.boton-ini a {
+    height: 30px;
+    width: 100px;
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-ini a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(77, 77, 77)
+}
+
+.footer a {
+    font-weight: bold;
+    color: grey;
 }
 
 #natural {
